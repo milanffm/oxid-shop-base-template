@@ -1,0 +1,21 @@
+{
+    "name": "graphicon/cado-theme",
+    "description": "This is cado Theme for OXID eShop.",
+    "type": "oxideshop-theme",
+    "keywords": [
+        "oxid",
+        "themes",
+        "eShop"
+    ],
+    "homepage": "htp://graphicon.de",
+    "license": [
+        "GPL-3.0",
+        "proprietary"
+    ],
+    "extra": {
+        "oxideshop": {
+            "target-directory": "cado",
+            "assets-directory": "out/cado"
+        }
+    }
+}
