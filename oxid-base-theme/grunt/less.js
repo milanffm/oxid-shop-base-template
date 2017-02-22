@@ -11,13 +11,13 @@ module.exports = {
 
     theme: {
         files: {
-            "out/cado/src/css/styles.min.css": "build/less/cado.less"
+            "out/oxid-base-theme/src/css/styles.min.css": "build/less/oxid-base-theme.less"
         }
     },
 
     vendor: {
         files: {
-            "out/cado/src/css/libs/jquery.flexslider.min.css": "build/vendor/jquery-flexslider2/less/flexslider.less"
+            "out/oxid-base-theme/src/css/libs/jquery.flexslider.min.css": "build/vendor/jquery-flexslider2/less/flexslider.less"
         }
     }
 
