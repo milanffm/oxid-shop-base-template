@@ -1,11 +1,11 @@
 {
-  "name": "flow",
+  "name": "oxid-base-theme",
   "version": "1.0.0",
   "description": "",
   "main": "Gruntfile.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:OXID-eSales/cado_theme.git"
+    "url": "git@github.com:milanffm/oxid-shop-base-template.git"
   },
   "keywords": [],
   "author": "OXID eSales AG",

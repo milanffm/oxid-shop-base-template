@@ -20,10 +20,10 @@ Check out the appropriate branch for your OXID eShop version into the shop's ``A
 
 ```
 cd DOCUMENT_ROOT/Application/views/
-git clone -b BRANCH_NAME https://github.com/OXID-eSales/cado_theme.git flow
+git clone -b BRANCH_NAME https://github.com/OXID-eSales/oxid-base-theme_theme.git flow
 ```
 
-You should now have a new folder ``DOCUMENT_ROOT/Application/views/cado``.
+You should now have a new folder ``DOCUMENT_ROOT/Application/views/oxid-base-theme``.
 
 ### Step 3: Prepare the database
 
@@ -31,11 +31,11 @@ In order to install the theme options, import the ``setup.sql`` into your databa
 
 #### Option 1: Console
 
-``mysql -u MYSQL_USER -p SHOP_DATABASE < cado/setup.sql``
+``mysql -u MYSQL_USER -p SHOP_DATABASE < oxid-base-theme/setup.sql``
 
 #### Option 2: Shop Admin: Service -> Tools
 
-If you have a local copy of flow files, go to Service -> Tools in Shop Admin, upload cado/setup.sql and click "start update" button
+If you have a local copy of flow files, go to Service -> Tools in Shop Admin, upload oxid-base-theme/setup.sql and click "start update" button
 
 ### Step 4: Prepare the ``out`` folder
 
@@ -45,15 +45,15 @@ The ``out`` folder can be prepared in two possible ways. The first option is to 
 
 Link the theme's ``out`` directory to the ``out`` directory of the shop:
 
-``ln -s ../Application/views/cado/out/cado ../../out/cado``
+``ln -s ../Application/views/oxid-base-theme/out/oxid-base-theme ../../out/oxid-base-theme``
 
 #### Option 2: Copying
 
 Copy theme's ``out`` directory to shop:
 
-``cp -r cado/out/cado ../../out/cado``
+``cp -r oxid-base-theme/out/oxid-base-theme ../../out/oxid-base-theme``
 
-You now should be able to do ``cd ../../out/cado``.
+You now should be able to do ``cd ../../out/oxid-base-theme``.
 
 ### Step 5: Activate theme 
 
@@ -81,7 +81,7 @@ Installation on ubuntu system:
 3. Go to "flow" theme's directory and install all related ``grunt`` plugins:
 
 	```
-    cd DOCUMENT_ROOT/Application/views/cado/
+    cd DOCUMENT_ROOT/Application/views/oxid-base-theme/
     sudo npm install
     ```
 

@@ -1,6 +1,6 @@
 {
-    "name": "graphicon/cado-theme",
-    "description": "This is cado Theme for OXID eShop.",
+    "name": "graphicon/oxid-base-theme",
+    "description": "This is oxid-base-theme Theme for OXID eShop.",
     "type": "oxideshop-theme",
     "keywords": [
         "oxid",
@@ -14,8 +14,8 @@
     ],
     "extra": {
         "oxideshop": {
-            "target-directory": "cado",
-            "assets-directory": "out/cado"
+            "target-directory": "oxid-base-theme",
+            "assets-directory": "out/oxid-base-theme"
         }
     }
 }
